@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61D25B21A675F9F00051A5C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61D25AD1A675F9F00051A5C /* Bolts.framework */; };
+		B61D25B31A675F9F00051A5C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61D25AE1A675F9F00051A5C /* Parse.framework */; };
+		B61D25B41A675F9F00051A5C /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61D25AF1A675F9F00051A5C /* ParseCrashReporting.framework */; };
+		B61D25B51A675F9F00051A5C /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61D25B01A675F9F00051A5C /* ParseFacebookUtils.framework */; };
+		B61D25B61A675F9F00051A5C /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61D25B11A675F9F00051A5C /* ParseUI.framework */; };
+		B646F7631A673DD2001AA4C4 /* Bell Schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F7531A673DD2001AA4C4 /* Bell Schedule.png */; };
+		B646F7641A673DD2001AA4C4 /* Cafeteria Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F7541A673DD2001AA4C4 /* Cafeteria Menu.png */; };
+		B646F7651A673DD2001AA4C4 /* Call Us.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F7551A673DD2001AA4C4 /* Call Us.png */; };
+		B646F7661A673DD2001AA4C4 /* Contact Admin.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F7561A673DD2001AA4C4 /* Contact Admin.png */; };
+		B646F7671A673DD2001AA4C4 /* CTTP.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F7571A673DD2001AA4C4 /* CTTP.png */; };
+		B646F7681A673DD2001AA4C4 /* Cutlass.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F7581A673DD2001AA4C4 /* Cutlass.png */; };
+		B646F7691A673DD2001AA4C4 /* Events.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F7591A673DD2001AA4C4 /* Events.png */; };
+		B646F76A1A673DD2001AA4C4 /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F75A1A673DD2001AA4C4 /* Facebook.png */; };
+		B646F76B1A673DD2001AA4C4 /* Food Acct.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F75B1A673DD2001AA4C4 /* Food Acct.png */; };
+		B646F76C1A673DD2001AA4C4 /* Food Services.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F75C1A673DD2001AA4C4 /* Food Services.png */; };
+		B646F76D1A673DD2001AA4C4 /* Gradebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F75D1A673DD2001AA4C4 /* Gradebook.png */; };
+		B646F76E1A673DD2001AA4C4 /* My PHS.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F75E1A673DD2001AA4C4 /* My PHS.png */; };
+		B646F76F1A673DD2001AA4C4 /* School Store.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F75F1A673DD2001AA4C4 /* School Store.png */; };
+		B646F7701A673DD2001AA4C4 /* Sport Schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F7601A673DD2001AA4C4 /* Sport Schedule.png */; };
+		B646F7711A673DD2001AA4C4 /* Suggestions.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F7611A673DD2001AA4C4 /* Suggestions.png */; };
+		B646F7721A673DD2001AA4C4 /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = B646F7621A673DD2001AA4C4 /* Twitter.png */; };
+		B646F7741A6742D4001AA4C4 /* Picture_61-tif-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B646F7731A6742D4001AA4C4 /* Picture_61-tif-2.jpg */; };
+		B646F7761A6744D7001AA4C4 /* P1030117.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B646F7751A6744D7001AA4C4 /* P1030117.jpg */; };
+		B646F7781A674AFA001AA4C4 /* contactAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B646F7771A674AFA001AA4C4 /* contactAdmin.swift */; };
+		B646F7851A674B86001AA4C4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F7841A674B86001AA4C4 /* AudioToolbox.framework */; };
+		B646F7871A674B8B001AA4C4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F7861A674B8B001AA4C4 /* CFNetwork.framework */; };
+		B646F7891A674B96001AA4C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F7881A674B96001AA4C4 /* CoreGraphics.framework */; };
+		B646F78B1A674B9E001AA4C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F78A1A674B9E001AA4C4 /* CoreLocation.framework */; };
+		B646F78D1A674BA7001AA4C4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F78C1A674BA7001AA4C4 /* MobileCoreServices.framework */; };
+		B646F78F1A674BAE001AA4C4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F78E1A674BAE001AA4C4 /* QuartzCore.framework */; };
+		B646F7911A674BB7001AA4C4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F7901A674BB7001AA4C4 /* Security.framework */; };
+		B646F7931A674BBE001AA4C4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F7921A674BBE001AA4C4 /* StoreKit.framework */; };
+		B646F7951A674BC7001AA4C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F7941A674BC7001AA4C4 /* SystemConfiguration.framework */; };
+		B646F7971A674BD2001AA4C4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F7961A674BD2001AA4C4 /* libz.dylib */; };
+		B646F7991A674BE6001AA4C4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B646F7981A674BE6001AA4C4 /* libsqlite3.dylib */; };
+		B6CBC3C41A22540500518BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3C31A22540500518BFC /* AppDelegate.swift */; };
+		B6CBC3C71A22540500518BFC /* Palatine_High_School.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3C51A22540500518BFC /* Palatine_High_School.xcdatamodeld */; };
+		B6CBC3C91A22540500518BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3C81A22540500518BFC /* ViewController.swift */; };
+		B6CBC3CC1A22540500518BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CBC3CA1A22540500518BFC /* Main.storyboard */; };
+		B6CBC3CE1A22540500518BFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CBC3CD1A22540500518BFC /* Images.xcassets */; };
+		B6CBC3D11A22540500518BFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CBC3CF1A22540500518BFC /* LaunchScreen.xib */; };
+		B6CBC3DD1A22540500518BFC /* Palatine_High_SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3DC1A22540500518BFC /* Palatine_High_SchoolTests.swift */; };
+		B6CBC3E91A22567B00518BFC /* cutlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3E81A22567B00518BFC /* cutlassView.swift */; };
+		B6CBC3EB1A22568A00518BFC /* facebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3EA1A22568A00518BFC /* facebookView.swift */; };
+		B6CBC3ED1A22569B00518BFC /* twitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3EC1A22569B00518BFC /* twitterView.swift */; };
+		B6CBC3EF1A2270E100518BFC /* sportsCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3EE1A2270E100518BFC /* sportsCalendarView.swift */; };
+		B6CBC3F71A230BEE00518BFC /* suggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3F61A230BEE00518BFC /* suggestionView.swift */; };
+		B6CBC3F91A230D7500518BFC /* eventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3F81A230D7500518BFC /* eventView.swift */; };
+		B6CBC3FB1A230F0B00518BFC /* bellScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3FA1A230F0B00518BFC /* bellScheduleView.swift */; };
+		B6CBC3FD1A230F8D00518BFC /* schoolStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3FC1A230F8D00518BFC /* schoolStoreView.swift */; };
+		B6CBC3FF1A23116C00518BFC /* gradebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3FE1A23116C00518BFC /* gradebookView.swift */; };
+		B6CBC4011A23120700518BFC /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC4001A23120700518BFC /* menuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6CBC3D71A22540500518BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6CBC3B61A22540500518BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6CBC3BD1A22540500518BFC;
+			remoteInfo = "Palatine High School";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B61D25AD1A675F9F00051A5C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		B61D25AE1A675F9F00051A5C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		B61D25AF1A675F9F00051A5C /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		B61D25B01A675F9F00051A5C /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		B61D25B11A675F9F00051A5C /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		B646F7531A673DD2001AA4C4 /* Bell Schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bell Schedule.png"; sourceTree = "<group>"; };
+		B646F7541A673DD2001AA4C4 /* Cafeteria Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cafeteria Menu.png"; sourceTree = "<group>"; };
+		B646F7551A673DD2001AA4C4 /* Call Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Call Us.png"; sourceTree = "<group>"; };
+		B646F7561A673DD2001AA4C4 /* Contact Admin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact Admin.png"; sourceTree = "<group>"; };
+		B646F7571A673DD2001AA4C4 /* CTTP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CTTP.png; sourceTree = "<group>"; };
+		B646F7581A673DD2001AA4C4 /* Cutlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cutlass.png; sourceTree = "<group>"; };
+		B646F7591A673DD2001AA4C4 /* Events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Events.png; sourceTree = "<group>"; };
+		B646F75A1A673DD2001AA4C4 /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook.png; sourceTree = "<group>"; };
+		B646F75B1A673DD2001AA4C4 /* Food Acct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Food Acct.png"; sourceTree = "<group>"; };
+		B646F75C1A673DD2001AA4C4 /* Food Services.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Food Services.png"; sourceTree = "<group>"; };
+		B646F75D1A673DD2001AA4C4 /* Gradebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gradebook.png; sourceTree = "<group>"; };
+		B646F75E1A673DD2001AA4C4 /* My PHS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My PHS.png"; sourceTree = "<group>"; };
+		B646F75F1A673DD2001AA4C4 /* School Store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "School Store.png"; sourceTree = "<group>"; };
+		B646F7601A673DD2001AA4C4 /* Sport Schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sport Schedule.png"; sourceTree = "<group>"; };
+		B646F7611A673DD2001AA4C4 /* Suggestions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suggestions.png; sourceTree = "<group>"; };
+		B646F7621A673DD2001AA4C4 /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		B646F7731A6742D4001AA4C4 /* Picture_61-tif-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Picture_61-tif-2.jpg"; sourceTree = "<group>"; };
+		B646F7751A6744D7001AA4C4 /* P1030117.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = P1030117.jpg; sourceTree = "<group>"; };
+		B646F7771A674AFA001AA4C4 /* contactAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactAdmin.swift; sourceTree = "<group>"; };
+		B646F7841A674B86001AA4C4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B646F7861A674B8B001AA4C4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B646F7881A674B96001AA4C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B646F78A1A674B9E001AA4C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B646F78C1A674BA7001AA4C4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B646F78E1A674BAE001AA4C4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B646F7901A674BB7001AA4C4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B646F7921A674BBE001AA4C4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B646F7941A674BC7001AA4C4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B646F7961A674BD2001AA4C4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B646F7981A674BE6001AA4C4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B646F79A1A674C2F001AA4C4 /* Palatine High School-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Palatine High School-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6CBC3BE1A22540500518BFC /* Palatine High School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Palatine High School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CBC3C21A22540500518BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CBC3C31A22540500518BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6CBC3C61A22540500518BFC /* Palatine_High_School.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Palatine_High_School.xcdatamodel; sourceTree = "<group>"; };
+		B6CBC3C81A22540500518BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6CBC3CB1A22540500518BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6CBC3CD1A22540500518BFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6CBC3D01A22540500518BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B6CBC3D61A22540500518BFC /* Palatine High SchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palatine High SchoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CBC3DB1A22540500518BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CBC3DC1A22540500518BFC /* Palatine_High_SchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palatine_High_SchoolTests.swift; sourceTree = "<group>"; };
+		B6CBC3E81A22567B00518BFC /* cutlassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cutlassView.swift; sourceTree = "<group>"; };
+		B6CBC3EA1A22568A00518BFC /* facebookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = facebookView.swift; sourceTree = "<group>"; };
+		B6CBC3EC1A22569B00518BFC /* twitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twitterView.swift; sourceTree = "<group>"; };
+		B6CBC3EE1A2270E100518BFC /* sportsCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sportsCalendarView.swift; sourceTree = "<group>"; };
+		B6CBC3F61A230BEE00518BFC /* suggestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = suggestionView.swift; sourceTree = "<group>"; };
+		B6CBC3F81A230D7500518BFC /* eventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eventView.swift; sourceTree = "<group>"; };
+		B6CBC3FA1A230F0B00518BFC /* bellScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bellScheduleView.swift; sourceTree = "<group>"; };
+		B6CBC3FC1A230F8D00518BFC /* schoolStoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = schoolStoreView.swift; sourceTree = "<group>"; };
+		B6CBC3FE1A23116C00518BFC /* gradebookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gradebookView.swift; sourceTree = "<group>"; };
+		B6CBC4001A23120700518BFC /* menuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6CBC3BB1A22540500518BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B646F7991A674BE6001AA4C4 /* libsqlite3.dylib in Frameworks */,
+				B646F7971A674BD2001AA4C4 /* libz.dylib in Frameworks */,
+				B646F7951A674BC7001AA4C4 /* SystemConfiguration.framework in Frameworks */,
+				B61D25B21A675F9F00051A5C /* Bolts.framework in Frameworks */,
+				B646F7931A674BBE001AA4C4 /* StoreKit.framework in Frameworks */,
+				B61D25B41A675F9F00051A5C /* ParseCrashReporting.framework in Frameworks */,
+				B61D25B61A675F9F00051A5C /* ParseUI.framework in Frameworks */,
+				B646F7911A674BB7001AA4C4 /* Security.framework in Frameworks */,
+				B61D25B31A675F9F00051A5C /* Parse.framework in Frameworks */,
+				B61D25B51A675F9F00051A5C /* ParseFacebookUtils.framework in Frameworks */,
+				B646F78F1A674BAE001AA4C4 /* QuartzCore.framework in Frameworks */,
+				B646F78D1A674BA7001AA4C4 /* MobileCoreServices.framework in Frameworks */,
+				B646F78B1A674B9E001AA4C4 /* CoreLocation.framework in Frameworks */,
+				B646F7891A674B96001AA4C4 /* CoreGraphics.framework in Frameworks */,
+				B646F7871A674B8B001AA4C4 /* CFNetwork.framework in Frameworks */,
+				B646F7851A674B86001AA4C4 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CBC3D31A22540500518BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6CBC3B51A22540500518BFC = {
+			isa = PBXGroup;
+			children = (
+				B61D25AD1A675F9F00051A5C /* Bolts.framework */,
+				B61D25AE1A675F9F00051A5C /* Parse.framework */,
+				B61D25AF1A675F9F00051A5C /* ParseCrashReporting.framework */,
+				B61D25B01A675F9F00051A5C /* ParseFacebookUtils.framework */,
+				B61D25B11A675F9F00051A5C /* ParseUI.framework */,
+				B646F7981A674BE6001AA4C4 /* libsqlite3.dylib */,
+				B646F7961A674BD2001AA4C4 /* libz.dylib */,
+				B646F7941A674BC7001AA4C4 /* SystemConfiguration.framework */,
+				B646F7921A674BBE001AA4C4 /* StoreKit.framework */,
+				B646F7901A674BB7001AA4C4 /* Security.framework */,
+				B646F78E1A674BAE001AA4C4 /* QuartzCore.framework */,
+				B646F78C1A674BA7001AA4C4 /* MobileCoreServices.framework */,
+				B646F78A1A674B9E001AA4C4 /* CoreLocation.framework */,
+				B646F7881A674B96001AA4C4 /* CoreGraphics.framework */,
+				B646F7861A674B8B001AA4C4 /* CFNetwork.framework */,
+				B646F7841A674B86001AA4C4 /* AudioToolbox.framework */,
+				B6CBC3C01A22540500518BFC /* Palatine High School */,
+				B6CBC3D91A22540500518BFC /* Palatine High SchoolTests */,
+				B6CBC3BF1A22540500518BFC /* Products */,
+				B646F79A1A674C2F001AA4C4 /* Palatine High School-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		B6CBC3BF1A22540500518BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6CBC3BE1A22540500518BFC /* Palatine High School.app */,
+				B6CBC3D61A22540500518BFC /* Palatine High SchoolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6CBC3C01A22540500518BFC /* Palatine High School */ = {
+			isa = PBXGroup;
+			children = (
+				B6CBC3C31A22540500518BFC /* AppDelegate.swift */,
+				B6CBC3C81A22540500518BFC /* ViewController.swift */,
+				B6CBC3CA1A22540500518BFC /* Main.storyboard */,
+				B646F7771A674AFA001AA4C4 /* contactAdmin.swift */,
+				B6CBC4001A23120700518BFC /* menuView.swift */,
+				B6CBC3FE1A23116C00518BFC /* gradebookView.swift */,
+				B6CBC3FC1A230F8D00518BFC /* schoolStoreView.swift */,
+				B6CBC3FA1A230F0B00518BFC /* bellScheduleView.swift */,
+				B6CBC3F81A230D7500518BFC /* eventView.swift */,
+				B6CBC3F61A230BEE00518BFC /* suggestionView.swift */,
+				B6CBC3EE1A2270E100518BFC /* sportsCalendarView.swift */,
+				B6CBC3E81A22567B00518BFC /* cutlassView.swift */,
+				B6CBC3EC1A22569B00518BFC /* twitterView.swift */,
+				B6CBC3EA1A22568A00518BFC /* facebookView.swift */,
+				B6CBC3CD1A22540500518BFC /* Images.xcassets */,
+				B6CBC3CF1A22540500518BFC /* LaunchScreen.xib */,
+				B6CBC3C51A22540500518BFC /* Palatine_High_School.xcdatamodeld */,
+				B6CBC3C11A22540500518BFC /* Supporting Files */,
+			);
+			path = "Palatine High School";
+			sourceTree = "<group>";
+		};
+		B6CBC3C11A22540500518BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B646F7751A6744D7001AA4C4 /* P1030117.jpg */,
+				B646F7731A6742D4001AA4C4 /* Picture_61-tif-2.jpg */,
+				B646F7531A673DD2001AA4C4 /* Bell Schedule.png */,
+				B646F7541A673DD2001AA4C4 /* Cafeteria Menu.png */,
+				B646F7551A673DD2001AA4C4 /* Call Us.png */,
+				B646F7561A673DD2001AA4C4 /* Contact Admin.png */,
+				B646F7571A673DD2001AA4C4 /* CTTP.png */,
+				B646F7581A673DD2001AA4C4 /* Cutlass.png */,
+				B646F7591A673DD2001AA4C4 /* Events.png */,
+				B646F75A1A673DD2001AA4C4 /* Facebook.png */,
+				B646F75B1A673DD2001AA4C4 /* Food Acct.png */,
+				B646F75C1A673DD2001AA4C4 /* Food Services.png */,
+				B646F75D1A673DD2001AA4C4 /* Gradebook.png */,
+				B646F75E1A673DD2001AA4C4 /* My PHS.png */,
+				B646F75F1A673DD2001AA4C4 /* School Store.png */,
+				B646F7601A673DD2001AA4C4 /* Sport Schedule.png */,
+				B646F7611A673DD2001AA4C4 /* Suggestions.png */,
+				B646F7621A673DD2001AA4C4 /* Twitter.png */,
+				B6CBC3C21A22540500518BFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6CBC3D91A22540500518BFC /* Palatine High SchoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6CBC3DC1A22540500518BFC /* Palatine_High_SchoolTests.swift */,
+				B6CBC3DA1A22540500518BFC /* Supporting Files */,
+			);
+			path = "Palatine High SchoolTests";
+			sourceTree = "<group>";
+		};
+		B6CBC3DA1A22540500518BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6CBC3DB1A22540500518BFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6CBC3BD1A22540500518BFC /* Palatine High School */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CBC3E01A22540500518BFC /* Build configuration list for PBXNativeTarget "Palatine High School" */;
+			buildPhases = (
+				B6CBC3BA1A22540500518BFC /* Sources */,
+				B6CBC3BB1A22540500518BFC /* Frameworks */,
+				B6CBC3BC1A22540500518BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Palatine High School";
+			productName = "Palatine High School";
+			productReference = B6CBC3BE1A22540500518BFC /* Palatine High School.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6CBC3D51A22540500518BFC /* Palatine High SchoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CBC3E31A22540500518BFC /* Build configuration list for PBXNativeTarget "Palatine High SchoolTests" */;
+			buildPhases = (
+				B6CBC3D21A22540500518BFC /* Sources */,
+				B6CBC3D31A22540500518BFC /* Frameworks */,
+				B6CBC3D41A22540500518BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6CBC3D81A22540500518BFC /* PBXTargetDependency */,
+			);
+			name = "Palatine High SchoolTests";
+			productName = "Palatine High SchoolTests";
+			productReference = B6CBC3D61A22540500518BFC /* Palatine High SchoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6CBC3B61A22540500518BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dominic Vitucci";
+				TargetAttributes = {
+					B6CBC3BD1A22540500518BFC = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 47Q8HR9LV3;
+					};
+					B6CBC3D51A22540500518BFC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B6CBC3BD1A22540500518BFC;
+					};
+				};
+			};
+			buildConfigurationList = B6CBC3B91A22540500518BFC /* Build configuration list for PBXProject "Palatine High School" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6CBC3B51A22540500518BFC;
+			productRefGroup = B6CBC3BF1A22540500518BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6CBC3BD1A22540500518BFC /* Palatine High School */,
+				B6CBC3D51A22540500518BFC /* Palatine High SchoolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6CBC3BC1A22540500518BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B646F7631A673DD2001AA4C4 /* Bell Schedule.png in Resources */,
+				B646F7661A673DD2001AA4C4 /* Contact Admin.png in Resources */,
+				B646F7721A673DD2001AA4C4 /* Twitter.png in Resources */,
+				B646F76B1A673DD2001AA4C4 /* Food Acct.png in Resources */,
+				B646F76E1A673DD2001AA4C4 /* My PHS.png in Resources */,
+				B646F7641A673DD2001AA4C4 /* Cafeteria Menu.png in Resources */,
+				B646F76C1A673DD2001AA4C4 /* Food Services.png in Resources */,
+				B6CBC3CC1A22540500518BFC /* Main.storyboard in Resources */,
+				B646F7651A673DD2001AA4C4 /* Call Us.png in Resources */,
+				B646F76D1A673DD2001AA4C4 /* Gradebook.png in Resources */,
+				B646F76A1A673DD2001AA4C4 /* Facebook.png in Resources */,
+				B646F7741A6742D4001AA4C4 /* Picture_61-tif-2.jpg in Resources */,
+				B646F7671A673DD2001AA4C4 /* CTTP.png in Resources */,
+				B646F76F1A673DD2001AA4C4 /* School Store.png in Resources */,
+				B646F7711A673DD2001AA4C4 /* Suggestions.png in Resources */,
+				B646F7701A673DD2001AA4C4 /* Sport Schedule.png in Resources */,
+				B646F7681A673DD2001AA4C4 /* Cutlass.png in Resources */,
+				B6CBC3D11A22540500518BFC /* LaunchScreen.xib in Resources */,
+				B646F7761A6744D7001AA4C4 /* P1030117.jpg in Resources */,
+				B646F7691A673DD2001AA4C4 /* Events.png in Resources */,
+				B6CBC3CE1A22540500518BFC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CBC3D41A22540500518BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6CBC3BA1A22540500518BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CBC3ED1A22569B00518BFC /* twitterView.swift in Sources */,
+				B6CBC3C91A22540500518BFC /* ViewController.swift in Sources */,
+				B6CBC3FD1A230F8D00518BFC /* schoolStoreView.swift in Sources */,
+				B6CBC3FF1A23116C00518BFC /* gradebookView.swift in Sources */,
+				B646F7781A674AFA001AA4C4 /* contactAdmin.swift in Sources */,
+				B6CBC3F71A230BEE00518BFC /* suggestionView.swift in Sources */,
+				B6CBC3EB1A22568A00518BFC /* facebookView.swift in Sources */,
+				B6CBC3F91A230D7500518BFC /* eventView.swift in Sources */,
+				B6CBC3C41A22540500518BFC /* AppDelegate.swift in Sources */,
+				B6CBC4011A23120700518BFC /* menuView.swift in Sources */,
+				B6CBC3FB1A230F0B00518BFC /* bellScheduleView.swift in Sources */,
+				B6CBC3EF1A2270E100518BFC /* sportsCalendarView.swift in Sources */,
+				B6CBC3E91A22567B00518BFC /* cutlassView.swift in Sources */,
+				B6CBC3C71A22540500518BFC /* Palatine_High_School.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CBC3D21A22540500518BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CBC3DD1A22540500518BFC /* Palatine_High_SchoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6CBC3D81A22540500518BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6CBC3BD1A22540500518BFC /* Palatine High School */;
+			targetProxy = B6CBC3D71A22540500518BFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6CBC3CA1A22540500518BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CBC3CB1A22540500518BFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6CBC3CF1A22540500518BFC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CBC3D01A22540500518BFC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6CBC3DE1A22540500518BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6CBC3DF1A22540500518BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6CBC3E11A22540500518BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Palatine High School/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Palatine High School-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6CBC3E21A22540500518BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Palatine High School/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Palatine High School-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B6CBC3E41A22540500518BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Palatine High SchoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palatine High School.app/Palatine High School";
+			};
+			name = Debug;
+		};
+		B6CBC3E51A22540500518BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Palatine High SchoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palatine High School.app/Palatine High School";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6CBC3B91A22540500518BFC /* Build configuration list for PBXProject "Palatine High School" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CBC3DE1A22540500518BFC /* Debug */,
+				B6CBC3DF1A22540500518BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CBC3E01A22540500518BFC /* Build configuration list for PBXNativeTarget "Palatine High School" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CBC3E11A22540500518BFC /* Debug */,
+				B6CBC3E21A22540500518BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CBC3E31A22540500518BFC /* Build configuration list for PBXNativeTarget "Palatine High SchoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CBC3E41A22540500518BFC /* Debug */,
+				B6CBC3E51A22540500518BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B6CBC3C51A22540500518BFC /* Palatine_High_School.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6CBC3C61A22540500518BFC /* Palatine_High_School.xcdatamodel */,
+			);
+			currentVersion = B6CBC3C61A22540500518BFC /* Palatine_High_School.xcdatamodel */;
+			path = Palatine_High_School.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B6CBC3B61A22540500518BFC /* Project object */;
+}
