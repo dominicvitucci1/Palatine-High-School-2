@@ -10,14 +10,14 @@
 	<string>Palatine High School</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>09A3A2F55A71ECAF0D82ACC9FD7235A102606CAD</key>
+		<key>DF7F2ACE17904FBD455E018B02AB2FD3A552CDA3</key>
 		<string>https://github.com/dominicvitucci1/Palatine-High-School.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Palatine High School.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>09A3A2F55A71ECAF0D82ACC9FD7235A102606CAD</key>
+		<key>DF7F2ACE17904FBD455E018B02AB2FD3A552CDA3</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>09A3A2F55A71ECAF0D82ACC9FD7235A102606CAD</string>
+	<string>DF7F2ACE17904FBD455E018B02AB2FD3A552CDA3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>09A3A2F55A71ECAF0D82ACC9FD7235A102606CAD</string>
+			<string>DF7F2ACE17904FBD455E018B02AB2FD3A552CDA3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Palatine%20High%20School</string>
 		</dict>
