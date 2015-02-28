@@ -8,12 +8,13 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.titleView = UIImageView(image: UIImage(named: "Top Bar"))
+        //navigationItem.titleView = UIImageView(image: UIImage(named: "Top Bar"))
         
         // Do any additional setup after loading the view, typically from a nib.
     }

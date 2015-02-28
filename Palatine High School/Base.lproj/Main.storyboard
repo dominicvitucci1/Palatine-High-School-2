@@ -7,6 +7,24 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="WeP-dw-GBQ">
+            <objects>
+                <viewController id="KQ2-QE-4PD" customClass="GameViewController" customModule="Palatine_High_School" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oae-jw-rdm"/>
+                        <viewControllerLayoutGuide type="bottom" id="lBB-E1-vgt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0HN-tZ-lh8" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mdk-8c-ZBm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066" y="-983"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -20,8 +38,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9G3-eZ-Ryb" userLabel="My PHS">
-                                <rect key="frame" x="0.0" y="0.0" width="300" height="200"/>
-                                <state key="normal" backgroundImage="My PHS.png">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="166.5"/>
+                                <state key="normal" backgroundImage="App-Home-Screen_Large-Left.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -29,8 +47,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTz-dq-oJ5" userLabel="Food Service">
-                                <rect key="frame" x="300" y="0.0" width="300" height="200"/>
-                                <state key="normal" backgroundImage="Food Services.png">
+                                <rect key="frame" x="300" y="0.0" width="300" height="166.5"/>
+                                <state key="normal" backgroundImage="App-Home-Screen_Large-Right.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -38,8 +56,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xa-Uk-bMj" userLabel="School Store">
-                                <rect key="frame" x="0.0" y="200" width="200" height="100"/>
-                                <state key="normal" backgroundImage="School Store.png">
+                                <rect key="frame" x="0.0" y="166.5" width="200" height="111.5"/>
+                                <state key="normal" backgroundImage="App-Home-Screen_Small-left-top.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -47,8 +65,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7D-Y1-4SD" userLabel="Bell Schedule">
-                                <rect key="frame" x="200" y="200" width="200" height="100"/>
-                                <state key="normal" backgroundImage="Bell Schedule.png">
+                                <rect key="frame" x="200" y="166.5" width="200" height="111.5"/>
+                                <state key="normal" backgroundImage="App-Home-Screen_Small-mid-top.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -56,8 +74,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hO5-ts-vE4" userLabel="Events">
-                                <rect key="frame" x="400" y="200" width="200" height="100"/>
-                                <state key="normal" backgroundImage="Events.png">
+                                <rect key="frame" x="400" y="166.5" width="200" height="111.5"/>
+                                <state key="normal" backgroundImage="App-Home-Screen_Small-right-top.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -65,8 +83,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="he4-Uq-kjQ" userLabel="Suggestions">
-                                <rect key="frame" x="0.0" y="300" width="200" height="100"/>
-                                <state key="normal" backgroundImage="Suggestions.png">
+                                <rect key="frame" x="0.0" y="278" width="200" height="111"/>
+                                <state key="normal" backgroundImage="App-Home-Screen_Small-left-mid.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -74,26 +92,26 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e09-Dn-CMR" userLabel="Sports Schedule">
-                                <rect key="frame" x="400" y="300" width="200" height="100"/>
-                                <state key="normal" backgroundImage="Sport Schedule.png">
+                                <rect key="frame" x="400" y="278" width="200" height="111"/>
+                                <state key="normal" backgroundImage="App-Home-Screen_Small-right-mid.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="STx-DY-eC5" kind="show" id="x9i-WS-yh6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0j-rE-D3D" userLabel="Cutlass">
-                                <rect key="frame" x="0.0" y="400" width="200" height="100"/>
-                                <state key="normal" backgroundImage="Cutlass.png">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0j-rE-D3D" userLabel="Flappy Pete">
+                                <rect key="frame" x="0.0" y="389" width="200" height="111"/>
+                                <state key="normal" backgroundImage="App-Home-Screen_Small-left-bottom.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="x2C-hp-3D6" kind="show" id="vZ2-5c-ymz"/>
+                                    <segue destination="KQ2-QE-4PD" kind="show" id="bu8-kg-kdM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UE4-3C-9Qd" userLabel="Twitter">
-                                <rect key="frame" x="200" y="400" width="200" height="100"/>
-                                <state key="normal" backgroundImage="Twitter.png">
+                                <rect key="frame" x="200" y="389" width="200" height="111"/>
+                                <state key="normal" backgroundImage="App-Home-Screen_Small-mid-bottom.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -101,8 +119,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQ1-jh-cH5" userLabel="Facebook">
-                                <rect key="frame" x="400" y="400" width="200" height="100"/>
-                                <state key="normal" backgroundImage="Facebook.png">
+                                <rect key="frame" x="400" y="389" width="200" height="111"/>
+                                <state key="normal" backgroundImage="App-Home-Screen_Small-right-bottom.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -110,8 +128,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqu-xL-vUr" userLabel="Call Us">
-                                <rect key="frame" x="200" y="300" width="200" height="100"/>
-                                <state key="normal" backgroundImage="Call Us.png">
+                                <rect key="frame" x="200" y="278" width="200" height="111"/>
+                                <state key="normal" backgroundImage="App-Home-Screen_Small-mid-mid.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -134,7 +152,7 @@
                             <constraint firstItem="5xa-Uk-bMj" firstAttribute="leading" secondItem="he4-Uq-kjQ" secondAttribute="leading" id="Dqw-Zr-XjI"/>
                             <constraint firstItem="5xa-Uk-bMj" firstAttribute="trailing" secondItem="he4-Uq-kjQ" secondAttribute="trailing" id="EC4-Go-QKZ"/>
                             <constraint firstItem="UE4-3C-9Qd" firstAttribute="top" secondItem="d0j-rE-D3D" secondAttribute="top" id="EiD-Tz-EK2"/>
-                            <constraint firstItem="9G3-eZ-Ryb" firstAttribute="height" secondItem="5xa-Uk-bMj" secondAttribute="height" multiplier="2" id="Hl0-qn-kQS"/>
+                            <constraint firstItem="9G3-eZ-Ryb" firstAttribute="height" secondItem="5xa-Uk-bMj" secondAttribute="height" multiplier="1.5" id="Hl0-qn-kQS"/>
                             <constraint firstItem="d0j-rE-D3D" firstAttribute="height" secondItem="he4-Uq-kjQ" secondAttribute="height" id="HvW-6v-njV"/>
                             <constraint firstItem="d0j-rE-D3D" firstAttribute="top" secondItem="he4-Uq-kjQ" secondAttribute="bottom" id="IIW-Wk-QTO"/>
                             <constraint firstItem="5xa-Uk-bMj" firstAttribute="width" secondItem="e7D-Y1-4SD" secondAttribute="width" id="Iba-JK-AhG"/>
@@ -187,6 +205,72 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1066.5" y="-323"/>
+        </scene>
+        <!--Cttp View-->
+        <scene sceneID="gpn-35-urQ">
+            <objects>
+                <viewController id="agu-pe-Uve" customClass="cttpView" customModule="Palatine_High_School" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v6V-UI-BUn"/>
+                        <viewControllerLayoutGuide type="bottom" id="LB3-sV-yrB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5YR-zu-ZwO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bn2-7g-sGh">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bn2-7g-sGh" firstAttribute="leading" secondItem="5YR-zu-ZwO" secondAttribute="leading" id="0uY-Ml-M5x"/>
+                            <constraint firstItem="bn2-7g-sGh" firstAttribute="top" secondItem="v6V-UI-BUn" secondAttribute="bottom" id="2bN-2v-ft4"/>
+                            <constraint firstItem="bn2-7g-sGh" firstAttribute="bottom" secondItem="LB3-sV-yrB" secondAttribute="top" id="FYu-mr-aDi"/>
+                            <constraint firstAttribute="trailing" secondItem="bn2-7g-sGh" secondAttribute="trailing" id="VEG-5L-EPU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="bn2-7g-sGh" id="Khy-fH-OIf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aQZ-3F-WYE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1714" y="-1653"/>
+        </scene>
+        <!--Food Acct View-->
+        <scene sceneID="vC8-4p-EQ5">
+            <objects>
+                <viewController id="OKU-Lk-gNO" customClass="foodAcctView" customModule="Palatine_High_School" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gxn-Fn-9RQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="yBa-4T-cuv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9OF-UI-H1j">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LKs-2W-Qti">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LKs-2W-Qti" firstAttribute="leading" secondItem="9OF-UI-H1j" secondAttribute="leading" id="97T-XR-eR0"/>
+                            <constraint firstItem="LKs-2W-Qti" firstAttribute="bottom" secondItem="yBa-4T-cuv" secondAttribute="top" id="OxH-7h-r2V"/>
+                            <constraint firstAttribute="trailing" secondItem="LKs-2W-Qti" secondAttribute="trailing" id="jgc-j6-OxR"/>
+                            <constraint firstItem="LKs-2W-Qti" firstAttribute="top" secondItem="Gxn-Fn-9RQ" secondAttribute="bottom" id="u5D-lB-LJp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="LKs-2W-Qti" id="OSF-X4-NV7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WBb-Ys-Tim" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2389" y="-1653"/>
         </scene>
         <!--Gradebook View-->
         <scene sceneID="IjX-53-vFX">
@@ -314,6 +398,9 @@
                                 <state key="normal" backgroundImage="CTTP.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="agu-pe-Uve" kind="show" id="hjU-u2-6WN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.37647058823529411" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
@@ -370,6 +457,9 @@
                                 <state key="normal" backgroundImage="Food Acct.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="OKU-Lk-gNO" kind="show" id="HE0-h8-bP3"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="P1030117.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Y7Q-QW-99R">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
@@ -647,50 +737,6 @@
             </objects>
             <point key="canvasLocation" x="259.5" y="390"/>
         </scene>
-        <!--Cutlass View-->
-        <scene sceneID="0BY-5r-68S">
-            <objects>
-                <viewController id="x2C-hp-3D6" customClass="cutlassView" customModule="Palatine_High_School" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KRN-b8-fSq"/>
-                        <viewControllerLayoutGuide type="bottom" id="uA4-cf-FUB"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="CwU-kS-3iD">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2YL-oi-XdE">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="2YL-oi-XdE" firstAttribute="top" secondItem="KRN-b8-fSq" secondAttribute="bottom" id="7wE-s6-0Du"/>
-                            <constraint firstItem="2YL-oi-XdE" firstAttribute="leading" secondItem="CwU-kS-3iD" secondAttribute="leading" id="TvQ-sy-0fK"/>
-                            <constraint firstItem="2YL-oi-XdE" firstAttribute="bottom" secondItem="uA4-cf-FUB" secondAttribute="top" id="ys8-7n-58v"/>
-                            <constraint firstAttribute="trailing" secondItem="2YL-oi-XdE" secondAttribute="trailing" id="z9V-v9-ng8"/>
-                        </constraints>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="2YL-oi-XdE"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="7wE-s6-0Du"/>
-                                <include reference="TvQ-sy-0fK"/>
-                                <include reference="ys8-7n-58v"/>
-                                <include reference="z9V-v9-ng8"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <connections>
-                        <outlet property="webView" destination="2YL-oi-XdE" id="wk6-IW-FWy"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rZV-S0-Lvx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="915" y="390"/>
-        </scene>
         <!--Twitter View-->
         <scene sceneID="SH1-44-5hb">
             <objects>
@@ -844,23 +890,23 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Bell Schedule.png" width="600" height="590"/>
+        <image name="App-Home-Screen_Large-Left.gif" width="900" height="839"/>
+        <image name="App-Home-Screen_Large-Right.png" width="900" height="839"/>
+        <image name="App-Home-Screen_Small-left-bottom.gif" width="599" height="617"/>
+        <image name="App-Home-Screen_Small-left-mid.gif" width="599" height="619"/>
+        <image name="App-Home-Screen_Small-left-top.gif" width="599" height="616"/>
+        <image name="App-Home-Screen_Small-mid-bottom.gif" width="601" height="617"/>
+        <image name="App-Home-Screen_Small-mid-mid.gif" width="601" height="619"/>
+        <image name="App-Home-Screen_Small-mid-top.gif" width="601" height="616"/>
+        <image name="App-Home-Screen_Small-right-bottom.gif" width="600" height="617"/>
+        <image name="App-Home-Screen_Small-right-mid.gif" width="600" height="619"/>
+        <image name="App-Home-Screen_Small-right-top.gif" width="600" height="616"/>
         <image name="CTTP.png" width="1800" height="514"/>
         <image name="Cafeteria Menu.png" width="1800" height="515"/>
-        <image name="Call Us.png" width="600" height="591"/>
         <image name="Contact Admin.png" width="1800" height="512"/>
-        <image name="Cutlass.png" width="600" height="549"/>
-        <image name="Events.png" width="600" height="590"/>
-        <image name="Facebook.png" width="600" height="549"/>
         <image name="Food Acct.png" width="1800" height="512"/>
-        <image name="Food Services.png" width="900" height="982"/>
         <image name="Gradebook.png" width="1800" height="514"/>
-        <image name="My PHS.png" width="900" height="982"/>
         <image name="P1030117.jpg" width="4320" height="3240"/>
         <image name="Picture_61-tif-2.jpg" width="3501" height="1181"/>
-        <image name="School Store.png" width="600" height="590"/>
-        <image name="Sport Schedule.png" width="600" height="591"/>
-        <image name="Suggestions.png" width="600" height="591"/>
-        <image name="Twitter.png" width="600" height="549"/>
     </resources>
 </document>
