@@ -38,7 +38,7 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
             
             println("view: \(self.view.description)")
             
-            let skView = self.view as SKView
+            let skView = self.originalContentView as SKView
             
             // Load Ads
             loadAds()

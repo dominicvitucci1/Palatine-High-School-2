@@ -39,11 +39,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         canRestart = false
         
         // setup physics
-        self.physicsWorld.gravity = CGVectorMake( 0.0, -5.0 )
+        self.physicsWorld.gravity = CGVectorMake( 0.0, -6.0 )
         self.physicsWorld.contactDelegate = self
         
         // setup background color
-        skyColor = SKColor(red: 51.0/255.0, green: 71.0/255.0, blue: 245.0/255.0, alpha: 1.0)
+        skyColor = SKColor(red: 97.0/255.0, green: 163.0/255.0, blue: 244.0/255.0, alpha: 1.0)
         self.backgroundColor = skyColor
         
         moving = SKNode()
@@ -55,8 +55,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         let groundTexture = SKTexture(imageNamed: "Ground")
         groundTexture.filteringMode = .Nearest // shorter form for SKTextureFilteringMode.Nearest
         
-        let moveGroundSprite = SKAction.moveByX(-groundTexture.size().width * 2.0, y: 0, duration: NSTimeInterval(0.02 * groundTexture.size().width * 2.0))
-        let resetGroundSprite = SKAction.moveByX(groundTexture.size().width * 2.0, y: 0, duration: 0.0)
+        let moveGroundSprite = SKAction.moveByX(-groundTexture.size().width * 1.5, y: 0, duration: NSTimeInterval(0.01 * groundTexture.size().width * 2.0))
+        let resetGroundSprite = SKAction.moveByX(groundTexture.size().width * 1.5, y: 0, duration: 0.0)
         let moveGroundSpritesForever = SKAction.repeatActionForever(SKAction.sequence([moveGroundSprite,resetGroundSprite]))
         
         for var i:CGFloat = 0; i < 2.0 + self.frame.size.width / ( groundTexture.size().width * 2.0 ); ++i {
@@ -122,9 +122,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         self.runAction(spawnThenDelayForever)
         
         // setup our bird
-        let birdTexture1 = SKTexture(imageNamed: "Snow Man Up")
+        let birdTexture1 = SKTexture(imageNamed: "Pete Up")
         birdTexture1.filteringMode = .Nearest
-        let birdTexture2 = SKTexture(imageNamed: "Snow Man Down")
+        let birdTexture2 = SKTexture(imageNamed: "Pete Down")
         birdTexture2.filteringMode = .Nearest
         
         let anim = SKAction.animateWithTextures([birdTexture1, birdTexture2], timePerFrame: 0.2)

@@ -14,7 +14,7 @@ class bellScheduleView: UIViewController {
     
     
     
-    var urlPath = "http://phs.d211.org/info/bell-schedule/?date=2015-01-14"
+    var urlPath = "http://phs.d211.org/info/bell-schedule/"
     
     
     
