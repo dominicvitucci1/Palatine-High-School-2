@@ -12,12 +12,12 @@ import iAd
 
 extension SKNode {
     class func unarchiveFromFile(file : NSString) -> SKNode? {
-        if let path = NSBundle.mainBundle().pathForResource(file, ofType: "sks") {
+        if let path = NSBundle.mainBundle().pathForResource(file as String, ofType: "sks") {
             var sceneData = NSData(contentsOfFile: path, options: .DataReadingMappedIfSafe, error: nil)!
             var archiver = NSKeyedUnarchiver(forReadingWithData: sceneData)
             
             archiver.setClass(self.classForKeyedUnarchiver(), forClassName: "SKScene")
-            let scene = archiver.decodeObjectForKey(NSKeyedArchiveRootObjectKey) as GameScene
+            let scene = archiver.decodeObjectForKey(NSKeyedArchiveRootObjectKey) as! GameScene
             archiver.finishDecoding()
             return scene
         } else {
@@ -38,7 +38,7 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
             
             println("view: \(self.view.description)")
             
-            let skView = self.originalContentView as SKView
+            let skView = self.originalContentView as! SKView
             
             // Load Ads
             loadAds()
@@ -80,7 +80,7 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
         //optional resume paused game code
         if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
             // Configure the view.
-            let skView = self.view as SKView
+            let skView = self.view as! SKView
             skView.paused = false
             
         }
@@ -94,7 +94,7 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
         //optional pause game code
         if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
             // Configure the view.
-            let skView = self.view as SKView
+            let skView = self.view as! SKView
             skView.paused = true
             
         }

@@ -25,7 +25,7 @@ class menuView: UIViewController {
         PFConfig.getConfigInBackgroundWithBlock
             {
                 (config: PFConfig!, error: NSError!) -> Void in
-                let menu = config["menuLink"] as String
+                let menu = config["menuLink"] as! String
                 NSLog("Yay! The number is %@!", menu)
                 
                 let requestURL = NSURL(string: menu)

@@ -38,7 +38,7 @@ class contactAdmin: UIViewController {
         PFConfig.getConfigInBackgroundWithBlock
             {
                 (config: PFConfig!, error: NSError!) -> Void in
-                let contact = config["zcontactLink"] as String
+                let contact = config["zcontactLink"] as! String
                 
                 self.webView.loadHTMLString(contact, baseURL: nil)
         }

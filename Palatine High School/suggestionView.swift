@@ -42,7 +42,7 @@ class suggestionView: UIViewController, MFMailComposeViewControllerDelegate, UIT
         {
             if (subview.isKindOfClass(UITextField))
             {
-                var textField = subview as UITextField
+                var textField = subview as! UITextField
                 textField.addTarget(self, action: "textFieldDidReturn:", forControlEvents: UIControlEvents.EditingDidEndOnExit)
                 
                 textField.addTarget(self, action: "textFieldDidBeginEditing:", forControlEvents: UIControlEvents.EditingDidBegin)
@@ -62,7 +62,7 @@ class suggestionView: UIViewController, MFMailComposeViewControllerDelegate, UIT
         self.keyboardIsShowing = true
         
         if let info = notification.userInfo {
-            self.keyboardFrame = (info[UIKeyboardFrameEndUserInfoKey] as NSValue).CGRectValue()
+            self.keyboardFrame = (info[UIKeyboardFrameEndUserInfoKey] as! NSValue).CGRectValue()
             self.arrangeViewOffsetFromKeyboard()
         }
         
@@ -106,7 +106,7 @@ class suggestionView: UIViewController, MFMailComposeViewControllerDelegate, UIT
         }
     }
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent)
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent)
     {
         if (self.activeTextField != nil)
         {
@@ -141,7 +141,7 @@ class suggestionView: UIViewController, MFMailComposeViewControllerDelegate, UIT
     }
     
     
-    func textFieldShouldReturn(textField: UITextField!) -> Bool // called when 'return' key pressed. return NO to ignore.
+    func textFieldShouldReturn(textField: UITextField) -> Bool // called when 'return' key pressed. return NO to ignore.
     {
         textField.resignFirstResponder()
         return true;
